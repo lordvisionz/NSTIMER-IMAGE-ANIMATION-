@@ -14,6 +14,7 @@
 		373E6BD01B1E9CA800DBD2A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373E6BCF1B1E9CA800DBD2A2 /* Images.xcassets */; };
 		373E6BD31B1E9CA800DBD2A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373E6BD11B1E9CA800DBD2A2 /* LaunchScreen.xib */; };
 		373E6BDF1B1E9CA800DBD2A2 /* IMAGE_ANIMATIONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373E6BDE1B1E9CA800DBD2A2 /* IMAGE_ANIMATIONTests.m */; };
+		38BB335B1B1F5CCC00EE7F6B /* AMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB335A1B1F5CCC00EE7F6B /* AMImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		373E6BD81B1E9CA800DBD2A2 /* IMAGE ANIMATIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMAGE ANIMATIONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		373E6BDD1B1E9CA800DBD2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373E6BDE1B1E9CA800DBD2A2 /* IMAGE_ANIMATIONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAGE_ANIMATIONTests.m; sourceTree = "<group>"; };
+		38BB33591B1F5CCC00EE7F6B /* AMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMImageView.h; sourceTree = "<group>"; };
+		38BB335A1B1F5CCC00EE7F6B /* AMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				373E6BC91B1E9CA700DBD2A2 /* ViewController.h */,
 				373E6BCA1B1E9CA700DBD2A2 /* ViewController.m */,
 				373E6BCC1B1E9CA700DBD2A2 /* Main.storyboard */,
+				38BB33591B1F5CCC00EE7F6B /* AMImageView.h */,
+				38BB335A1B1F5CCC00EE7F6B /* AMImageView.m */,
 				373E6BCF1B1E9CA800DBD2A2 /* Images.xcassets */,
 				373E6BD11B1E9CA800DBD2A2 /* LaunchScreen.xib */,
 				373E6BC21B1E9CA700DBD2A2 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				373E6BCB1B1E9CA700DBD2A2 /* ViewController.m in Sources */,
 				373E6BC81B1E9CA700DBD2A2 /* AppDelegate.m in Sources */,
 				373E6BC51B1E9CA700DBD2A2 /* main.m in Sources */,
+				38BB335B1B1F5CCC00EE7F6B /* AMImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				373E6BE41B1E9CA800DBD2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		373E6BE51B1E9CA800DBD2A2 /* Build configuration list for PBXNativeTarget "IMAGE ANIMATIONTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				373E6BE71B1E9CA800DBD2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

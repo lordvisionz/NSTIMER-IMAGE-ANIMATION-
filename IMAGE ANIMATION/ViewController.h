@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMImageView.h"
 
 @interface ViewController : UIViewController
-
+{
+    IBOutlet AMImageView *imageview;
+}
 
 @end
 
